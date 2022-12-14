@@ -1,0 +1,57 @@
+body {
+    background-color: red;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content .box {
+    padding: 30px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+table tr td a {
+    color: black;
+}
+
+table tr th {
+    background-color: #747474;
+    color: white;
+    font-weight: 500;
+}
+
+table {
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=search] {
+    background-color: #EAF0F7;
+    color: black;
+    margin: 20px 0;
+    margin-bottom: 200px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    width: 450px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.4);
+}

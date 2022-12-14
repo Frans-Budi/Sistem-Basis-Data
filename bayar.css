@@ -1,0 +1,30 @@
+.content {
+    padding: 60px 0;
+    justify-content: flex-start;
+}
+
+.box {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+select {
+    background-color: #EAF0F7;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    width: 350px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.4);
+}
